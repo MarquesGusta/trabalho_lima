@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    background-color: black;
+    font-family: "Inter", "sans-serif";
+}
+
+#imagemdefundo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+    z-index: -2;
+    text-align: center;
+    background-image: url("imagens/menu/img 25.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 450px;
+    opacity: 80%;
+}
+
+#timenu, #subhome{
+    z-index: 1;
+    position: absolute;
+}
+
+#timenu{
+  color: azure;
+  text-align: center;
+}
+
+#subhome{
+    color: azure;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+hr{
+    height: 4px;
+    background-color: whitesmoke;
+    border: none;
+    width: 95%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#menu_icon{
+    height: 80px;
+    width: 80px;
+}
+#subtitu{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+#subtitu h3{
+    color: #FAB712;
+    text-align: center;
+    float: left;
+}
+
+h5{
+    font-size: 15px;
+}
+
+#menuu h3{
+    color: #FAB712;
+}
+
+#menuu{
+    color: azure;
+    display: flex;
+    justify-content: center;
+    font-size: x-small;
+}
+
+
+img{
+    height: 70px;
+    width: 70px;
+}
+#entrada, #parrilla, #acompan, #bbq, #sobremesa, #bebida{
+    border: 2px whitesmoke solid;
+    border-width: 3px;
+    width: 450px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+}
+
+#item1, #item2, #item3, #item4, #item5, #item6, #item7, #item8, #item9, #item10, #item11, #item12{
+    align-items: center;
+    height: 200px;
+    margin: 10px;
+}
+
+h5{
+    color: #FAB712;
+}
+
+#esquerda{
+    float:left;
+}
+
+#direita{
+    float: right;
+}
+
+.esq{
+    float: left;
+}
+
+.dir{
+    float: right;
+}
+
+.dir p{
+    font-size: 11px;
+}
+
+#foo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#ladesq{
+    float: left;
+}
+
+#ladir{
+    float:right
+}
+
+#bureser{
+    align-self: center;
+    background-color: whitesmoke;
+    color: black;
+    height: 30px;
+    width: 100px;
+    border-radius: 0px 30px 0px 30px;
+}
+
+#foo img{
+    align-self: center;
+    width: 300px;
+    height: 200px;
+    margin-right: 0;
+}
+
+#delivery{
+    align-self: center;
+    background-color: #FAB712;
+    color: black;
+    height: 50px;
+    width: 150px;
+    border-radius: 0px 30px 0px 30px;
+}
+
+#foo button{
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media only screen and (max-width: 1040px){
+    #menuu{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    
+}

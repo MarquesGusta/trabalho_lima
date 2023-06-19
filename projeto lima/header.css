@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* estilos do header */
+#header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    padding-bottom: 1%;
+    width: 100vw;
+}
+
+#close{
+    display: none;
+}
+
+#menuicon{
+    display: none;
+}
+
+#logo{
+    width: 250px;
+    height: 150px;
+}
+
+
+
+#menu, #eventos{
+    color: #FAB712;
+}
+
+#reserva{
+    border: 2px white solid;
+    padding: 1% 2% 1% 2%
+}
+
+#conteudo-header{
+    display: flex;
+    flex-direction: row;
+    width: calc(75vw - 191px);
+    justify-content: center;
+}
+
+#conteudo-header a, #reserva{
+    font-family: "Josefin", "sans-serif"; 
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+#conteudo-header a:hover , #reserva:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* Footer */
+footer{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#esquerda_footer{
+    font-size: 25px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#logo_footer{
+    width: 300px;
+    height: 200px;
+    margin-right: 0;
+}
+
+#numero{
+    display: flex;
+    text-align: center;
+    font-size: 35px;
+}
+
+#insta{
+    display: flex;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Media */
+@media only screen and (max-width: 1350px){
+    #logo{
+        margin-left: calc(50vw - 48px - 155px);
+    }
+
+    #reserva{
+        margin-left: calc(35vw - 155px)
+    }
+    #close{
+        display: block;
+        width: 24px;
+        height: 24px;
+        margin-left: calc(25vw - 24px - 8px);
+        margin-top: 5%;
+        margin-bottom: 5%;
+        cursor: pointer;
+    }
+
+    #conteudo-header{
+        flex-direction: column;
+        margin-left: -150vw;
+        width: 25vw;
+        height: 100vh;
+        top : 0;
+        position: fixed;
+        background-color:#d59f16 ;
+        justify-content: flex-start;
+        transition: 0.8s;
+    }
+    
+    header{
+        position: fixed;
+        z-index: 2;
+    }
+    
+    #conteudo-header a{
+        width: 20vw;
+        font-family: "Inter", "sans-serif";
+        margin-bottom: 8%;
+        font-size: 25px;
+        padding: 1%;
+        margin-left: 0;
+
+    }
+
+    #conteudo-header a:hover{
+        background-color: #9c7002;
+        text-decoration: none;
+    }
+
+    #menuicon{
+        display: block;
+        float: left;
+        width: 48px;
+        height: 48px;
+        cursor: pointer;
+    }
+
+    #logo_footer{
+        display: none;
+    }
+
+    #numero, #insta{
+        font-size: 15px;
+        text-align: center;
+        font-size: 35px;
+        align-items: baseline;
+    }
+
+}
+
+@media only screen and (max-width: 450px){
+    #conteudo-header a{
+        font-family: "Inter", "sans-serif";
+        font-size: 10px;
+    }
+}

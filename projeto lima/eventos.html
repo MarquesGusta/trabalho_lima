@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleevento.css">
+    <link rel="stylesheet" href="header.css">
+    <title>O Celeiro da Carne</title>
+</head>
+<body>
+  
+    <header id="header">
+      <img src="imagens/menu.png" alt="" id="menuicon" onclick= "switch_menu()">
+      <a href="home.html"><img src="imagens/logo_Sem_fundo.png" alt="logo" id="logo"></a>
+      <div id="conteudo-header">
+          <img src="imagens/close.png" alt="" id="close" onclick="switch_menu()">
+          <a id="pp" href="home.html">Página Principal</a>
+          <a id="menu" href="menu.html">Menu</a>
+          <a id="eventos" href="#">Eventos</a>
+      </div>
+      
+      <a id="reserva" href="reserva.html">Reserva</a>
+  </header>
+
+    <div id="imagemdefundo">
+      <h1 id="agenda">AGENDA DE EVENTOS <br> <a id="subhome" href="home.html">home</a></h1>
+   
+    </div>
+
+    <hr>
+
+    <div>
+        <p id="subtitu"><h1 id="tutu">EVENTOS</h1><h1 id="titi">O CELEIRO DA CARNE</h1></p>
+        <hr>
+    </div>
+    <center>
+      <div class="carousel">
+        <div class="carousel-inner">
+      
+          <input
+            class="carousel-open"
+            type="radio"
+            id="carousel-1"
+            name="carousel"
+            aria-hidden="true"
+            hidden=""
+            checked="checked"
+          />
+          <div class="carousel-item">
+            <img
+              src="imagens/evento/evento 2.PNG"
+            />
+          </div>
+      
+          <input
+            class="carousel-open"
+            type="radio"
+            id="carousel-2"
+            name="carousel"
+            aria-hidden="true"
+            hidden=""
+          />
+          <div class="carousel-item">
+            <img
+              src="imagens/evento/evento 3.PNG"
+            />
+          </div>
+      
+          <input
+            class="carousel-open"
+            type="radio"
+            id="carousel-3"
+            name="carousel"
+            aria-hidden="true"
+            hidden=""
+          />
+          <div class="carousel-item">
+            <img
+              src="imagens/evento/evento 4.PNG"
+            />
+          </div>
+      
+          <input
+            class="carousel-open"
+            type="radio"
+            id="carousel-4"
+            name="carousel"
+            aria-hidden="true"
+            hidden=""
+          />
+          <div class="carousel-item">
+            <img
+              src="imagens/evento/evento 5.PNG"
+            />
+          </div>
+      
+          <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+          <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+          <label for="carousel-3" class="carousel-control prev control-4">‹</label>
+          <label for="carousel-4" class="carousel-control prev control-1">‹</label>
+      
+          <label for="carousel-1" class="carousel-control next control-4">›</label>
+          <label for="carousel-2" class="carousel-control next control-1">›</label>
+          <label for="carousel-3" class="carousel-control next control-2">›</label>
+          <label for="carousel-4" class="carousel-control next control-3">‹</label>
+      
+        </div>
+      </div>
+    
+    </center>
+    
+    <hr>
+      
+    <div id="convite">
+      <div id="imgesquerda"> 
+        <img src="imagens/evento/EVENTO.PNG" alt="cozinha">
+      </div>
+      <div id="textodireita">
+        <p>Então, vem pra cá com a família e aproveita bem o dia, com muito sabor e aquela alegria que não tem fim! <br>Faça sua reserva já!</p>
+        <center>
+          <button type="button"><a href="reserva.html">reserve já</a></button>
+        </center>
+      </div>
+      
+    </div>
+
+      <hr>
+
+      <footer>
+        <div id="esquerda_footer">
+            <p>Endereços</p>
+            <p>Cambuci:<br>-Rua Robertson, 384<br>Tatuapé:<br>-Rua Itapura, 875</p>
+        </div>
+
+        <div id="meio_footer">
+            <img src="imagens/MicrosoftTeams-image.png" alt="" id="logo_footer">
+        </div>
+
+        <div id="direita_footer">
+            <p id="contatos">Contato</p>
+            <p id="numero"><img src="imagens/whats.png" alt="">(11)3341-4244</p>
+            <p id="insta"><img src="imagens/insta.png" alt="">@oceleirodacarne</p>
+        </div>
+    </footer>
+</body>
+<script src="menu.js"></script>
+</html>

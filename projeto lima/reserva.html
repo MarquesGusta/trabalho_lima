@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reserva.css">
+    <link rel="stylesheet" href="header.css">
+    <title>O Celeiro da Carne</title>
+</head>
+<body>
+
+    <!-- Cria o header -->
+    <header id="header">
+        <img src="imagens/menu.png" alt="" id="menuicon" onclick= "switch_menu()">
+        <a href="home.html"><img src="imagens/logo_Sem_fundo.png" alt="logo" id="logo"></a>
+        <div id="conteudo-header">
+            <img src="imagens/close.png" alt="" id="close" onclick="switch_menu()">
+            <a id="pp" href="home.html">Página Principal</a>
+            <a id="menu" href="menu.html">Menu</a>
+            <a id="eventos" href="eventos.html">Eventos</a>
+        </div>
+        
+        <a id="reserva" href="#">Reserva</a>
+    </header>
+
+    <!-- Cria o banner de reserva -->
+    <div id="reserva_banner">
+        <img src="imagens/reserva_fundo.png" alt="" id="reserva_fundo">
+        <div id="texto_reserva">
+            <h1>FAÇA SUA RESERVA JÁ</h1>
+            <a href="home.html" id="subhome">Home</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Cria o formulário de reserva -->
+    <form>
+        <div id="formulario_esquerda">
+            <label for="">Nome completo</label>
+            <input type="text">
+            <label for="">CPF</label>
+            <input type="text">
+            <label for="">Horário desejado</label>
+            <input type="text">
+        </div>
+
+        
+        <div id="formulario_direita">
+            <label for="">Qtd. de pessoas</label>
+            <input type="text">
+            <label for="">Data desejada</label>
+            <input type="text">
+            <label for="">Área desejada</label>
+            <input type="text">
+        </div>
+        
+    </form>
+
+    <button type="submit">Concluir</button>
+
+    <div id="corno"></div>
+
+    <hr>
+
+    <!-- Cria o footer com infromações -->
+    <footer>
+        <div id="esquerda_footer">
+            <p>Endereços</p>
+            <p>Cambuci:<br>-Rua Robertson, 384<br>Tatuapé:<br>-Rua Itapura, 875</p>
+        </div>
+
+        <div id="meio_footer">
+            <img src="imagens/logo_Sem_fundo.png" alt="" id="logo_footer">
+        </div>
+
+        <div id="direita_footer">
+            <p>Contato</p>
+            <p id="numero"><img src="imagens/whats.png" alt="">(11)3341-4244</p>
+            <p id="insta"><img src="imagens/insta.png" alt="">@oceleirodacarne</p>
+        </div>
+    </footer>
+</body>
+<script src="menu.js"></script>
+</html>
